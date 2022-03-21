@@ -10,3 +10,9 @@
 * [Nice Dashbord for reference purposes](https://ember-climate.org/data/global-electricity/)
 * [IEA RD&D investmens](https://www.iea.org/data-and-statistics/data-product/energy-technology-rd-and-d-budget-database-2)
 * 
+
+# _GDP-PPP_
+* GDP, PPP (current international $) 
+* GDP, PPP (constant 2017 international $)  
+
+https://data.worldbank.org/indicator/NY.GDP.MKTP.PP.KD
