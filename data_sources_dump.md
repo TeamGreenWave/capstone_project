@@ -9,7 +9,7 @@
 * [Our World in Data, The World's Energy Problem](https://ourworldindata.org/worlds-energy-problem)
 * [Nice Dashbord for reference purposes](https://ember-climate.org/data/global-electricity/)
 * [IEA RD&D investmens](https://www.iea.org/data-and-statistics/data-product/energy-technology-rd-and-d-budget-database-2)
-* 
+* [Death rates from energy production](https://ourworldindata.org/grapher/death-rates-from-energy-production-per-twh)
 
 # _GDP-PPP_
 * GDP, PPP (current international $) 
