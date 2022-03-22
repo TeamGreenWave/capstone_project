@@ -16,3 +16,11 @@
 * GDP, PPP (constant 2017 international $)  
 
 https://data.worldbank.org/indicator/NY.GDP.MKTP.PP.KD
+
+
+# _Primary Energy consumption by source, Countries and Regions_
+Primary energy consumption is measured in terawatt-hours (TWh). Here an inefficiency factor (the 'substitution'
+method) has been applied for fossil fuels, meaning the shares by each energy source give a better approximation of
+final energy consumption.
+
+https://ourworldindata.org/grapher/energy-consumption-by-source-and-region
