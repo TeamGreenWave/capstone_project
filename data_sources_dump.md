@@ -35,3 +35,10 @@ production by converting non-fossil energy into the energy inputs required if th
 fossil fuels.
 
 https://ourworldindata.org/grapher/per-capita-energy-stacked
+
+
+# _ Primary direct energy consumption by source, Countries and Regions_
+Energy consumption is shown as direct primary energy. This means this does not correct for fossil fuel
+inefficiencies in conversion to useful energy estimates.
+
+https://ourworldindata.org/grapher/primary-energy-consumption-by-source
