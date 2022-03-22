@@ -10,6 +10,7 @@
 * [Nice Dashbord for reference purposes](https://ember-climate.org/data/global-electricity/)
 * [IEA RD&D investmens](https://www.iea.org/data-and-statistics/data-product/energy-technology-rd-and-d-budget-database-2)
 * [Death rates from energy production](https://ourworldindata.org/grapher/death-rates-from-energy-production-per-twh)
+* [Import/export of embedded energy in traged Goods](https://ourworldindata.org/grapher/traded-energy-share-domestic)
 
 # _GDP-PPP_
 * GDP, PPP (current international $) 
