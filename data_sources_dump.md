@@ -27,3 +27,11 @@ production by converting non-fossil energy into the energy inputs required if th
 fossil fuels.
 
 https://ourworldindata.org/grapher/energy-consumption-by-source-and-region
+
+
+# _Per capita primary energy consumption by source, Countries and Regions_
+Primary energy is calculated based on the 'substitution method' which takes account of the inefficiencies in fossil fuel
+production by converting non-fossil energy into the energy inputs required if they had the same conversion losses as
+fossil fuels.
+
+https://ourworldindata.org/grapher/per-capita-energy-stacked
