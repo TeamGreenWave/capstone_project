@@ -11,6 +11,7 @@
 * [IEA RD&D investmens](https://www.iea.org/data-and-statistics/data-product/energy-technology-rd-and-d-budget-database-2)
 * [Death rates from energy production](https://ourworldindata.org/grapher/death-rates-from-energy-production-per-twh)
 * [Import/export of embedded energy in traged Goods](https://ourworldindata.org/grapher/traded-energy-share-domestic)
+* [Investment in renewable energies](https://ourworldindata.org/grapher/investment-in-renewable-energy-by-technology)
 
 # GDP-PPP
 * GDP, PPP (current international $) 
