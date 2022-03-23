@@ -1,0 +1,2447 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0213.1102                               -->
+<workbook original-version='18.1' source-build='2021.4.4 (20214.22.0213.1102)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='owid-energy-data' inline='true' name='federated.083nrii1ikv1xj14k89e80705w6i' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='owid-energy-data' name='textscan.1w6cwml06xot9s106ahd910qeet2'>
+            <connection class='textscan' directory='/Users/sebastianlorenzen-schmidt/neuefische/capstone_project/data' filename='owid-energy-data.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1w6cwml06xot9s106ahd910qeet2' name='owid-energy-data.csv' table='[owid-energy-data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en' separator=','>
+            <column datatype='string' name='iso_code' ordinal='0' />
+            <column datatype='string' name='country' ordinal='1' />
+            <column datatype='integer' name='year' ordinal='2' />
+            <column datatype='real' name='coal_prod_change_pct' ordinal='3' />
+            <column datatype='real' name='coal_prod_change_twh' ordinal='4' />
+            <column datatype='real' name='gas_prod_change_pct' ordinal='5' />
+            <column datatype='real' name='gas_prod_change_twh' ordinal='6' />
+            <column datatype='real' name='oil_prod_change_pct' ordinal='7' />
+            <column datatype='real' name='oil_prod_change_twh' ordinal='8' />
+            <column datatype='real' name='energy_cons_change_pct' ordinal='9' />
+            <column datatype='real' name='energy_cons_change_twh' ordinal='10' />
+            <column datatype='real' name='biofuel_share_elec' ordinal='11' />
+            <column datatype='real' name='biofuel_elec_per_capita' ordinal='12' />
+            <column datatype='real' name='biofuel_cons_change_pct' ordinal='13' />
+            <column datatype='real' name='biofuel_share_energy' ordinal='14' />
+            <column datatype='real' name='biofuel_cons_change_twh' ordinal='15' />
+            <column datatype='real' name='biofuel_consumption' ordinal='16' />
+            <column datatype='real' name='biofuel_cons_per_capita' ordinal='17' />
+            <column datatype='string' name='carbon_intensity_elec' ordinal='18' />
+            <column datatype='real' name='coal_share_elec' ordinal='19' />
+            <column datatype='real' name='coal_cons_change_pct' ordinal='20' />
+            <column datatype='real' name='coal_share_energy' ordinal='21' />
+            <column datatype='real' name='coal_cons_change_twh' ordinal='22' />
+            <column datatype='real' name='coal_consumption' ordinal='23' />
+            <column datatype='real' name='coal_elec_per_capita' ordinal='24' />
+            <column datatype='real' name='coal_cons_per_capita' ordinal='25' />
+            <column datatype='real' name='coal_production' ordinal='26' />
+            <column datatype='real' name='coal_prod_per_capita' ordinal='27' />
+            <column datatype='real' name='biofuel_electricity' ordinal='28' />
+            <column datatype='real' name='coal_electricity' ordinal='29' />
+            <column datatype='real' name='fossil_electricity' ordinal='30' />
+            <column datatype='real' name='gas_electricity' ordinal='31' />
+            <column datatype='real' name='hydro_electricity' ordinal='32' />
+            <column datatype='real' name='nuclear_electricity' ordinal='33' />
+            <column datatype='real' name='oil_electricity' ordinal='34' />
+            <column datatype='real' name='other_renewable_exc_biofuel_electricity' ordinal='35' />
+            <column datatype='real' name='other_renewable_electricity' ordinal='36' />
+            <column datatype='real' name='renewables_electricity' ordinal='37' />
+            <column datatype='real' name='solar_electricity' ordinal='38' />
+            <column datatype='real' name='wind_electricity' ordinal='39' />
+            <column datatype='real' name='electricity_generation' ordinal='40' />
+            <column datatype='real' name='energy_per_gdp' ordinal='41' />
+            <column datatype='real' name='energy_per_capita' ordinal='42' />
+            <column datatype='real' name='fossil_cons_change_pct' ordinal='43' />
+            <column datatype='real' name='fossil_share_energy' ordinal='44' />
+            <column datatype='real' name='fossil_cons_change_twh' ordinal='45' />
+            <column datatype='real' name='fossil_fuel_consumption' ordinal='46' />
+            <column datatype='real' name='fossil_energy_per_capita' ordinal='47' />
+            <column datatype='real' name='fossil_cons_per_capita' ordinal='48' />
+            <column datatype='real' name='fossil_share_elec' ordinal='49' />
+            <column datatype='real' name='gas_share_elec' ordinal='50' />
+            <column datatype='real' name='gas_cons_change_pct' ordinal='51' />
+            <column datatype='real' name='gas_share_energy' ordinal='52' />
+            <column datatype='real' name='gas_cons_change_twh' ordinal='53' />
+            <column datatype='real' name='gas_consumption' ordinal='54' />
+            <column datatype='real' name='gas_elec_per_capita' ordinal='55' />
+            <column datatype='real' name='gas_energy_per_capita' ordinal='56' />
+            <column datatype='real' name='gas_production' ordinal='57' />
+            <column datatype='real' name='gas_prod_per_capita' ordinal='58' />
+            <column datatype='real' name='hydro_share_elec' ordinal='59' />
+            <column datatype='real' name='hydro_cons_change_pct' ordinal='60' />
+            <column datatype='real' name='hydro_share_energy' ordinal='61' />
+            <column datatype='real' name='hydro_cons_change_twh' ordinal='62' />
+            <column datatype='real' name='hydro_consumption' ordinal='63' />
+            <column datatype='real' name='hydro_elec_per_capita' ordinal='64' />
+            <column datatype='real' name='hydro_energy_per_capita' ordinal='65' />
+            <column datatype='real' name='low_carbon_share_elec' ordinal='66' />
+            <column datatype='real' name='low_carbon_electricity' ordinal='67' />
+            <column datatype='real' name='low_carbon_elec_per_capita' ordinal='68' />
+            <column datatype='real' name='low_carbon_cons_change_pct' ordinal='69' />
+            <column datatype='real' name='low_carbon_share_energy' ordinal='70' />
+            <column datatype='real' name='low_carbon_cons_change_twh' ordinal='71' />
+            <column datatype='real' name='low_carbon_consumption' ordinal='72' />
+            <column datatype='real' name='low_carbon_energy_per_capita' ordinal='73' />
+            <column datatype='real' name='nuclear_share_elec' ordinal='74' />
+            <column datatype='real' name='nuclear_cons_change_pct' ordinal='75' />
+            <column datatype='real' name='nuclear_share_energy' ordinal='76' />
+            <column datatype='real' name='nuclear_cons_change_twh' ordinal='77' />
+            <column datatype='real' name='nuclear_consumption' ordinal='78' />
+            <column datatype='real' name='nuclear_elec_per_capita' ordinal='79' />
+            <column datatype='real' name='nuclear_energy_per_capita' ordinal='80' />
+            <column datatype='real' name='oil_share_elec' ordinal='81' />
+            <column datatype='real' name='oil_cons_change_pct' ordinal='82' />
+            <column datatype='real' name='oil_share_energy' ordinal='83' />
+            <column datatype='real' name='oil_cons_change_twh' ordinal='84' />
+            <column datatype='real' name='oil_consumption' ordinal='85' />
+            <column datatype='real' name='oil_elec_per_capita' ordinal='86' />
+            <column datatype='real' name='oil_energy_per_capita' ordinal='87' />
+            <column datatype='real' name='oil_production' ordinal='88' />
+            <column datatype='real' name='oil_prod_per_capita' ordinal='89' />
+            <column datatype='real' name='other_renewables_elec_per_capita_exc_biofuel' ordinal='90' />
+            <column datatype='real' name='other_renewables_elec_per_capita' ordinal='91' />
+            <column datatype='real' name='other_renewables_cons_change_pct' ordinal='92' />
+            <column datatype='real' name='other_renewables_share_energy' ordinal='93' />
+            <column datatype='real' name='other_renewables_cons_change_twh' ordinal='94' />
+            <column datatype='real' name='other_renewable_consumption' ordinal='95' />
+            <column datatype='real' name='other_renewables_share_elec_exc_biofuel' ordinal='96' />
+            <column datatype='real' name='other_renewables_share_elec' ordinal='97' />
+            <column datatype='real' name='other_renewables_energy_per_capita' ordinal='98' />
+            <column datatype='real' name='per_capita_electricity' ordinal='99' />
+            <column datatype='real' name='population' ordinal='100' />
+            <column datatype='real' name='primary_energy_consumption' ordinal='101' />
+            <column datatype='real' name='renewables_elec_per_capita' ordinal='102' />
+            <column datatype='real' name='renewables_share_elec' ordinal='103' />
+            <column datatype='real' name='renewables_cons_change_pct' ordinal='104' />
+            <column datatype='real' name='renewables_share_energy' ordinal='105' />
+            <column datatype='real' name='renewables_cons_change_twh' ordinal='106' />
+            <column datatype='real' name='renewables_consumption' ordinal='107' />
+            <column datatype='real' name='renewables_energy_per_capita' ordinal='108' />
+            <column datatype='real' name='solar_share_elec' ordinal='109' />
+            <column datatype='real' name='solar_cons_change_pct' ordinal='110' />
+            <column datatype='real' name='solar_share_energy' ordinal='111' />
+            <column datatype='real' name='solar_cons_change_twh' ordinal='112' />
+            <column datatype='real' name='solar_consumption' ordinal='113' />
+            <column datatype='real' name='solar_elec_per_capita' ordinal='114' />
+            <column datatype='real' name='solar_energy_per_capita' ordinal='115' />
+            <column datatype='real' name='gdp' ordinal='116' />
+            <column datatype='real' name='wind_share_elec' ordinal='117' />
+            <column datatype='real' name='wind_cons_change_pct' ordinal='118' />
+            <column datatype='real' name='wind_share_energy' ordinal='119' />
+            <column datatype='real' name='wind_cons_change_twh' ordinal='120' />
+            <column datatype='real' name='wind_consumption' ordinal='121' />
+            <column datatype='real' name='wind_elec_per_capita' ordinal='122' />
+            <column datatype='real' name='wind_energy_per_capita' ordinal='123' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1w6cwml06xot9s106ahd910qeet2' name='owid-energy-data.csv' table='[owid-energy-data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en' separator=','>
+            <column datatype='string' name='iso_code' ordinal='0' />
+            <column datatype='string' name='country' ordinal='1' />
+            <column datatype='integer' name='year' ordinal='2' />
+            <column datatype='real' name='coal_prod_change_pct' ordinal='3' />
+            <column datatype='real' name='coal_prod_change_twh' ordinal='4' />
+            <column datatype='real' name='gas_prod_change_pct' ordinal='5' />
+            <column datatype='real' name='gas_prod_change_twh' ordinal='6' />
+            <column datatype='real' name='oil_prod_change_pct' ordinal='7' />
+            <column datatype='real' name='oil_prod_change_twh' ordinal='8' />
+            <column datatype='real' name='energy_cons_change_pct' ordinal='9' />
+            <column datatype='real' name='energy_cons_change_twh' ordinal='10' />
+            <column datatype='real' name='biofuel_share_elec' ordinal='11' />
+            <column datatype='real' name='biofuel_elec_per_capita' ordinal='12' />
+            <column datatype='real' name='biofuel_cons_change_pct' ordinal='13' />
+            <column datatype='real' name='biofuel_share_energy' ordinal='14' />
+            <column datatype='real' name='biofuel_cons_change_twh' ordinal='15' />
+            <column datatype='real' name='biofuel_consumption' ordinal='16' />
+            <column datatype='real' name='biofuel_cons_per_capita' ordinal='17' />
+            <column datatype='string' name='carbon_intensity_elec' ordinal='18' />
+            <column datatype='real' name='coal_share_elec' ordinal='19' />
+            <column datatype='real' name='coal_cons_change_pct' ordinal='20' />
+            <column datatype='real' name='coal_share_energy' ordinal='21' />
+            <column datatype='real' name='coal_cons_change_twh' ordinal='22' />
+            <column datatype='real' name='coal_consumption' ordinal='23' />
+            <column datatype='real' name='coal_elec_per_capita' ordinal='24' />
+            <column datatype='real' name='coal_cons_per_capita' ordinal='25' />
+            <column datatype='real' name='coal_production' ordinal='26' />
+            <column datatype='real' name='coal_prod_per_capita' ordinal='27' />
+            <column datatype='real' name='biofuel_electricity' ordinal='28' />
+            <column datatype='real' name='coal_electricity' ordinal='29' />
+            <column datatype='real' name='fossil_electricity' ordinal='30' />
+            <column datatype='real' name='gas_electricity' ordinal='31' />
+            <column datatype='real' name='hydro_electricity' ordinal='32' />
+            <column datatype='real' name='nuclear_electricity' ordinal='33' />
+            <column datatype='real' name='oil_electricity' ordinal='34' />
+            <column datatype='real' name='other_renewable_exc_biofuel_electricity' ordinal='35' />
+            <column datatype='real' name='other_renewable_electricity' ordinal='36' />
+            <column datatype='real' name='renewables_electricity' ordinal='37' />
+            <column datatype='real' name='solar_electricity' ordinal='38' />
+            <column datatype='real' name='wind_electricity' ordinal='39' />
+            <column datatype='real' name='electricity_generation' ordinal='40' />
+            <column datatype='real' name='energy_per_gdp' ordinal='41' />
+            <column datatype='real' name='energy_per_capita' ordinal='42' />
+            <column datatype='real' name='fossil_cons_change_pct' ordinal='43' />
+            <column datatype='real' name='fossil_share_energy' ordinal='44' />
+            <column datatype='real' name='fossil_cons_change_twh' ordinal='45' />
+            <column datatype='real' name='fossil_fuel_consumption' ordinal='46' />
+            <column datatype='real' name='fossil_energy_per_capita' ordinal='47' />
+            <column datatype='real' name='fossil_cons_per_capita' ordinal='48' />
+            <column datatype='real' name='fossil_share_elec' ordinal='49' />
+            <column datatype='real' name='gas_share_elec' ordinal='50' />
+            <column datatype='real' name='gas_cons_change_pct' ordinal='51' />
+            <column datatype='real' name='gas_share_energy' ordinal='52' />
+            <column datatype='real' name='gas_cons_change_twh' ordinal='53' />
+            <column datatype='real' name='gas_consumption' ordinal='54' />
+            <column datatype='real' name='gas_elec_per_capita' ordinal='55' />
+            <column datatype='real' name='gas_energy_per_capita' ordinal='56' />
+            <column datatype='real' name='gas_production' ordinal='57' />
+            <column datatype='real' name='gas_prod_per_capita' ordinal='58' />
+            <column datatype='real' name='hydro_share_elec' ordinal='59' />
+            <column datatype='real' name='hydro_cons_change_pct' ordinal='60' />
+            <column datatype='real' name='hydro_share_energy' ordinal='61' />
+            <column datatype='real' name='hydro_cons_change_twh' ordinal='62' />
+            <column datatype='real' name='hydro_consumption' ordinal='63' />
+            <column datatype='real' name='hydro_elec_per_capita' ordinal='64' />
+            <column datatype='real' name='hydro_energy_per_capita' ordinal='65' />
+            <column datatype='real' name='low_carbon_share_elec' ordinal='66' />
+            <column datatype='real' name='low_carbon_electricity' ordinal='67' />
+            <column datatype='real' name='low_carbon_elec_per_capita' ordinal='68' />
+            <column datatype='real' name='low_carbon_cons_change_pct' ordinal='69' />
+            <column datatype='real' name='low_carbon_share_energy' ordinal='70' />
+            <column datatype='real' name='low_carbon_cons_change_twh' ordinal='71' />
+            <column datatype='real' name='low_carbon_consumption' ordinal='72' />
+            <column datatype='real' name='low_carbon_energy_per_capita' ordinal='73' />
+            <column datatype='real' name='nuclear_share_elec' ordinal='74' />
+            <column datatype='real' name='nuclear_cons_change_pct' ordinal='75' />
+            <column datatype='real' name='nuclear_share_energy' ordinal='76' />
+            <column datatype='real' name='nuclear_cons_change_twh' ordinal='77' />
+            <column datatype='real' name='nuclear_consumption' ordinal='78' />
+            <column datatype='real' name='nuclear_elec_per_capita' ordinal='79' />
+            <column datatype='real' name='nuclear_energy_per_capita' ordinal='80' />
+            <column datatype='real' name='oil_share_elec' ordinal='81' />
+            <column datatype='real' name='oil_cons_change_pct' ordinal='82' />
+            <column datatype='real' name='oil_share_energy' ordinal='83' />
+            <column datatype='real' name='oil_cons_change_twh' ordinal='84' />
+            <column datatype='real' name='oil_consumption' ordinal='85' />
+            <column datatype='real' name='oil_elec_per_capita' ordinal='86' />
+            <column datatype='real' name='oil_energy_per_capita' ordinal='87' />
+            <column datatype='real' name='oil_production' ordinal='88' />
+            <column datatype='real' name='oil_prod_per_capita' ordinal='89' />
+            <column datatype='real' name='other_renewables_elec_per_capita_exc_biofuel' ordinal='90' />
+            <column datatype='real' name='other_renewables_elec_per_capita' ordinal='91' />
+            <column datatype='real' name='other_renewables_cons_change_pct' ordinal='92' />
+            <column datatype='real' name='other_renewables_share_energy' ordinal='93' />
+            <column datatype='real' name='other_renewables_cons_change_twh' ordinal='94' />
+            <column datatype='real' name='other_renewable_consumption' ordinal='95' />
+            <column datatype='real' name='other_renewables_share_elec_exc_biofuel' ordinal='96' />
+            <column datatype='real' name='other_renewables_share_elec' ordinal='97' />
+            <column datatype='real' name='other_renewables_energy_per_capita' ordinal='98' />
+            <column datatype='real' name='per_capita_electricity' ordinal='99' />
+            <column datatype='real' name='population' ordinal='100' />
+            <column datatype='real' name='primary_energy_consumption' ordinal='101' />
+            <column datatype='real' name='renewables_elec_per_capita' ordinal='102' />
+            <column datatype='real' name='renewables_share_elec' ordinal='103' />
+            <column datatype='real' name='renewables_cons_change_pct' ordinal='104' />
+            <column datatype='real' name='renewables_share_energy' ordinal='105' />
+            <column datatype='real' name='renewables_cons_change_twh' ordinal='106' />
+            <column datatype='real' name='renewables_consumption' ordinal='107' />
+            <column datatype='real' name='renewables_energy_per_capita' ordinal='108' />
+            <column datatype='real' name='solar_share_elec' ordinal='109' />
+            <column datatype='real' name='solar_cons_change_pct' ordinal='110' />
+            <column datatype='real' name='solar_share_energy' ordinal='111' />
+            <column datatype='real' name='solar_cons_change_twh' ordinal='112' />
+            <column datatype='real' name='solar_consumption' ordinal='113' />
+            <column datatype='real' name='solar_elec_per_capita' ordinal='114' />
+            <column datatype='real' name='solar_energy_per_capita' ordinal='115' />
+            <column datatype='real' name='gdp' ordinal='116' />
+            <column datatype='real' name='wind_share_elec' ordinal='117' />
+            <column datatype='real' name='wind_cons_change_pct' ordinal='118' />
+            <column datatype='real' name='wind_share_energy' ordinal='119' />
+            <column datatype='real' name='wind_cons_change_twh' ordinal='120' />
+            <column datatype='real' name='wind_consumption' ordinal='121' />
+            <column datatype='real' name='wind_elec_per_capita' ordinal='122' />
+            <column datatype='real' name='wind_energy_per_capita' ordinal='123' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;¤&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iso_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[iso_code]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>iso_code</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[country]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>coal_prod_change_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[coal_prod_change_pct]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>coal_prod_change_pct</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>coal_prod_change_twh</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[coal_prod_change_twh]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>coal_prod_change_twh</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gas_prod_change_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gas_prod_change_pct]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>gas_prod_change_pct</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gas_prod_change_twh</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gas_prod_change_twh]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>gas_prod_change_twh</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>oil_prod_change_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[oil_prod_change_pct]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>oil_prod_change_pct</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>oil_prod_change_twh</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[oil_prod_change_twh]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>oil_prod_change_twh</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>energy_cons_change_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[energy_cons_change_pct]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>energy_cons_change_pct</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>energy_cons_change_twh</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[energy_cons_change_twh]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>energy_cons_change_twh</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>biofuel_share_elec</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[biofuel_share_elec]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>biofuel_share_elec</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>biofuel_elec_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[biofuel_elec_per_capita]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>biofuel_elec_per_capita</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>biofuel_cons_change_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[biofuel_cons_change_pct]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>biofuel_cons_change_pct</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>biofuel_share_energy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[biofuel_share_energy]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>biofuel_share_energy</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>biofuel_cons_change_twh</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[biofuel_cons_change_twh]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>biofuel_cons_change_twh</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>biofuel_consumption</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[biofuel_consumption]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>biofuel_consumption</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>biofuel_cons_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[biofuel_cons_per_capita]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>biofuel_cons_per_capita</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>carbon_intensity_elec</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[carbon_intensity_elec]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>carbon_intensity_elec</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>coal_share_elec</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[coal_share_elec]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>coal_share_elec</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>coal_cons_change_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[coal_cons_change_pct]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>coal_cons_change_pct</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>coal_share_energy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[coal_share_energy]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>coal_share_energy</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>coal_cons_change_twh</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[coal_cons_change_twh]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>coal_cons_change_twh</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>coal_consumption</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[coal_consumption]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>coal_consumption</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>coal_elec_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[coal_elec_per_capita]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>coal_elec_per_capita</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>coal_cons_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[coal_cons_per_capita]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>coal_cons_per_capita</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>coal_production</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[coal_production]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>coal_production</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>coal_prod_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[coal_prod_per_capita]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>coal_prod_per_capita</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>biofuel_electricity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[biofuel_electricity]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>biofuel_electricity</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>coal_electricity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[coal_electricity]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>coal_electricity</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fossil_electricity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[fossil_electricity]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>fossil_electricity</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gas_electricity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gas_electricity]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>gas_electricity</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hydro_electricity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[hydro_electricity]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>hydro_electricity</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nuclear_electricity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[nuclear_electricity]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>nuclear_electricity</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>oil_electricity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[oil_electricity]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>oil_electricity</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>other_renewable_exc_biofuel_electricity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[other_renewable_exc_biofuel_electricity]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>other_renewable_exc_biofuel_electricity</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>other_renewable_electricity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[other_renewable_electricity]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>other_renewable_electricity</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>renewables_electricity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[renewables_electricity]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>renewables_electricity</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>solar_electricity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[solar_electricity]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>solar_electricity</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wind_electricity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[wind_electricity]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>wind_electricity</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>electricity_generation</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[electricity_generation]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>electricity_generation</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>energy_per_gdp</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[energy_per_gdp]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>energy_per_gdp</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>energy_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[energy_per_capita]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>energy_per_capita</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fossil_cons_change_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[fossil_cons_change_pct]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>fossil_cons_change_pct</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fossil_share_energy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[fossil_share_energy]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>fossil_share_energy</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fossil_cons_change_twh</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[fossil_cons_change_twh]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>fossil_cons_change_twh</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fossil_fuel_consumption</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[fossil_fuel_consumption]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>fossil_fuel_consumption</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fossil_energy_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[fossil_energy_per_capita]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>fossil_energy_per_capita</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fossil_cons_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[fossil_cons_per_capita]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>fossil_cons_per_capita</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fossil_share_elec</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[fossil_share_elec]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>fossil_share_elec</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gas_share_elec</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gas_share_elec]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>gas_share_elec</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gas_cons_change_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gas_cons_change_pct]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>gas_cons_change_pct</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gas_share_energy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gas_share_energy]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>gas_share_energy</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gas_cons_change_twh</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gas_cons_change_twh]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>gas_cons_change_twh</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gas_consumption</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gas_consumption]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>gas_consumption</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gas_elec_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gas_elec_per_capita]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>gas_elec_per_capita</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gas_energy_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gas_energy_per_capita]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>gas_energy_per_capita</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gas_production</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gas_production]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>gas_production</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gas_prod_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gas_prod_per_capita]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>gas_prod_per_capita</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hydro_share_elec</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[hydro_share_elec]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>hydro_share_elec</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hydro_cons_change_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[hydro_cons_change_pct]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>hydro_cons_change_pct</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hydro_share_energy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[hydro_share_energy]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>hydro_share_energy</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hydro_cons_change_twh</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[hydro_cons_change_twh]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>hydro_cons_change_twh</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hydro_consumption</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[hydro_consumption]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>hydro_consumption</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hydro_elec_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[hydro_elec_per_capita]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>hydro_elec_per_capita</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hydro_energy_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[hydro_energy_per_capita]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>hydro_energy_per_capita</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>low_carbon_share_elec</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[low_carbon_share_elec]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>low_carbon_share_elec</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>low_carbon_electricity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[low_carbon_electricity]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>low_carbon_electricity</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>low_carbon_elec_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[low_carbon_elec_per_capita]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>low_carbon_elec_per_capita</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>low_carbon_cons_change_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[low_carbon_cons_change_pct]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>low_carbon_cons_change_pct</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>low_carbon_share_energy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[low_carbon_share_energy]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>low_carbon_share_energy</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>low_carbon_cons_change_twh</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[low_carbon_cons_change_twh]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>low_carbon_cons_change_twh</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>low_carbon_consumption</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[low_carbon_consumption]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>low_carbon_consumption</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>low_carbon_energy_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[low_carbon_energy_per_capita]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>low_carbon_energy_per_capita</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nuclear_share_elec</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[nuclear_share_elec]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>nuclear_share_elec</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nuclear_cons_change_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[nuclear_cons_change_pct]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>nuclear_cons_change_pct</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nuclear_share_energy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[nuclear_share_energy]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>nuclear_share_energy</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nuclear_cons_change_twh</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[nuclear_cons_change_twh]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>nuclear_cons_change_twh</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nuclear_consumption</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[nuclear_consumption]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>nuclear_consumption</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nuclear_elec_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[nuclear_elec_per_capita]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>nuclear_elec_per_capita</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nuclear_energy_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[nuclear_energy_per_capita]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>nuclear_energy_per_capita</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>oil_share_elec</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[oil_share_elec]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>oil_share_elec</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>oil_cons_change_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[oil_cons_change_pct]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>oil_cons_change_pct</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>oil_share_energy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[oil_share_energy]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>oil_share_energy</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>oil_cons_change_twh</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[oil_cons_change_twh]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>oil_cons_change_twh</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>oil_consumption</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[oil_consumption]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>oil_consumption</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>oil_elec_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[oil_elec_per_capita]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>oil_elec_per_capita</remote-alias>
+            <ordinal>86</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>oil_energy_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[oil_energy_per_capita]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>oil_energy_per_capita</remote-alias>
+            <ordinal>87</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>oil_production</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[oil_production]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>oil_production</remote-alias>
+            <ordinal>88</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>oil_prod_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[oil_prod_per_capita]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>oil_prod_per_capita</remote-alias>
+            <ordinal>89</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>other_renewables_elec_per_capita_exc_biofuel</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[other_renewables_elec_per_capita_exc_biofuel]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>other_renewables_elec_per_capita_exc_biofuel</remote-alias>
+            <ordinal>90</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>other_renewables_elec_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[other_renewables_elec_per_capita]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>other_renewables_elec_per_capita</remote-alias>
+            <ordinal>91</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>other_renewables_cons_change_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[other_renewables_cons_change_pct]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>other_renewables_cons_change_pct</remote-alias>
+            <ordinal>92</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>other_renewables_share_energy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[other_renewables_share_energy]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>other_renewables_share_energy</remote-alias>
+            <ordinal>93</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>other_renewables_cons_change_twh</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[other_renewables_cons_change_twh]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>other_renewables_cons_change_twh</remote-alias>
+            <ordinal>94</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>other_renewable_consumption</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[other_renewable_consumption]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>other_renewable_consumption</remote-alias>
+            <ordinal>95</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>other_renewables_share_elec_exc_biofuel</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[other_renewables_share_elec_exc_biofuel]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>other_renewables_share_elec_exc_biofuel</remote-alias>
+            <ordinal>96</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>other_renewables_share_elec</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[other_renewables_share_elec]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>other_renewables_share_elec</remote-alias>
+            <ordinal>97</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>other_renewables_energy_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[other_renewables_energy_per_capita]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>other_renewables_energy_per_capita</remote-alias>
+            <ordinal>98</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>per_capita_electricity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[per_capita_electricity]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>per_capita_electricity</remote-alias>
+            <ordinal>99</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[population]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>population</remote-alias>
+            <ordinal>100</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>primary_energy_consumption</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[primary_energy_consumption]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>primary_energy_consumption</remote-alias>
+            <ordinal>101</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>renewables_elec_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[renewables_elec_per_capita]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>renewables_elec_per_capita</remote-alias>
+            <ordinal>102</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>renewables_share_elec</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[renewables_share_elec]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>renewables_share_elec</remote-alias>
+            <ordinal>103</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>renewables_cons_change_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[renewables_cons_change_pct]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>renewables_cons_change_pct</remote-alias>
+            <ordinal>104</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>renewables_share_energy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[renewables_share_energy]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>renewables_share_energy</remote-alias>
+            <ordinal>105</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>renewables_cons_change_twh</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[renewables_cons_change_twh]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>renewables_cons_change_twh</remote-alias>
+            <ordinal>106</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>renewables_consumption</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[renewables_consumption]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>renewables_consumption</remote-alias>
+            <ordinal>107</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>renewables_energy_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[renewables_energy_per_capita]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>renewables_energy_per_capita</remote-alias>
+            <ordinal>108</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>solar_share_elec</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[solar_share_elec]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>solar_share_elec</remote-alias>
+            <ordinal>109</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>solar_cons_change_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[solar_cons_change_pct]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>solar_cons_change_pct</remote-alias>
+            <ordinal>110</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>solar_share_energy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[solar_share_energy]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>solar_share_energy</remote-alias>
+            <ordinal>111</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>solar_cons_change_twh</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[solar_cons_change_twh]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>solar_cons_change_twh</remote-alias>
+            <ordinal>112</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>solar_consumption</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[solar_consumption]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>solar_consumption</remote-alias>
+            <ordinal>113</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>solar_elec_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[solar_elec_per_capita]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>solar_elec_per_capita</remote-alias>
+            <ordinal>114</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>solar_energy_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[solar_energy_per_capita]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>solar_energy_per_capita</remote-alias>
+            <ordinal>115</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gdp</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gdp]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>gdp</remote-alias>
+            <ordinal>116</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wind_share_elec</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[wind_share_elec]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>wind_share_elec</remote-alias>
+            <ordinal>117</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wind_cons_change_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[wind_cons_change_pct]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>wind_cons_change_pct</remote-alias>
+            <ordinal>118</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wind_share_energy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[wind_share_energy]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>wind_share_energy</remote-alias>
+            <ordinal>119</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wind_cons_change_twh</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[wind_cons_change_twh]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>wind_cons_change_twh</remote-alias>
+            <ordinal>120</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wind_consumption</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[wind_consumption]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>wind_consumption</remote-alias>
+            <ordinal>121</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wind_elec_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[wind_elec_per_capita]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>wind_elec_per_capita</remote-alias>
+            <ordinal>122</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wind_energy_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[wind_energy_per_capita]</local-name>
+            <parent-name>[owid-energy-data.csv]</parent-name>
+            <remote-alias>wind_energy_per_capita</remote-alias>
+            <ordinal>123</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Renewables Share Energy (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='0' formula='[renewables_share_energy]' peg='0' size='1.86' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='owid-energy-data.csv' datatype='table' name='[__tableau_internal_object_id__].[owid-energy-data.csv_82D66703734F44828B348AE84C408BE3]' role='measure' type='quantitative' />
+      <column caption='Biofuel Cons Change Pct' datatype='real' name='[biofuel_cons_change_pct]' role='measure' type='quantitative' />
+      <column caption='Biofuel Cons Change Twh' datatype='real' name='[biofuel_cons_change_twh]' role='measure' type='quantitative' />
+      <column caption='Biofuel Cons Per Capita' datatype='real' name='[biofuel_cons_per_capita]' role='measure' type='quantitative' />
+      <column caption='Biofuel Consumption' datatype='real' name='[biofuel_consumption]' role='measure' type='quantitative' />
+      <column caption='Biofuel Elec Per Capita' datatype='real' name='[biofuel_elec_per_capita]' role='measure' type='quantitative' />
+      <column caption='Biofuel Electricity' datatype='real' name='[biofuel_electricity]' role='measure' type='quantitative' />
+      <column caption='Biofuel Share Elec' datatype='real' name='[biofuel_share_elec]' role='measure' type='quantitative' />
+      <column caption='Biofuel Share Energy' datatype='real' name='[biofuel_share_energy]' role='measure' type='quantitative' />
+      <column caption='Carbon Intensity Elec' datatype='string' name='[carbon_intensity_elec]' role='dimension' type='nominal' />
+      <column caption='Coal Cons Change Pct' datatype='real' name='[coal_cons_change_pct]' role='measure' type='quantitative' />
+      <column caption='Coal Cons Change Twh' datatype='real' name='[coal_cons_change_twh]' role='measure' type='quantitative' />
+      <column caption='Coal Cons Per Capita' datatype='real' name='[coal_cons_per_capita]' role='measure' type='quantitative' />
+      <column caption='Coal Consumption' datatype='real' name='[coal_consumption]' role='measure' type='quantitative' />
+      <column caption='Coal Elec Per Capita' datatype='real' name='[coal_elec_per_capita]' role='measure' type='quantitative' />
+      <column caption='Coal Electricity' datatype='real' name='[coal_electricity]' role='measure' type='quantitative' />
+      <column caption='Coal Prod Change Pct' datatype='real' name='[coal_prod_change_pct]' role='measure' type='quantitative' />
+      <column caption='Coal Prod Change Twh' datatype='real' name='[coal_prod_change_twh]' role='measure' type='quantitative' />
+      <column caption='Coal Prod Per Capita' datatype='real' name='[coal_prod_per_capita]' role='measure' type='quantitative' />
+      <column caption='Coal Production' datatype='real' name='[coal_production]' role='measure' type='quantitative' />
+      <column caption='Coal Share Elec' datatype='real' name='[coal_share_elec]' role='measure' type='quantitative' />
+      <column caption='Coal Share Energy' datatype='real' name='[coal_share_energy]' role='measure' type='quantitative' />
+      <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Electricity Generation' datatype='real' name='[electricity_generation]' role='measure' type='quantitative' />
+      <column caption='Energy Cons Change Pct' datatype='real' name='[energy_cons_change_pct]' role='measure' type='quantitative' />
+      <column caption='Energy Cons Change Twh' datatype='real' name='[energy_cons_change_twh]' role='measure' type='quantitative' />
+      <column caption='Energy Per Capita' datatype='real' name='[energy_per_capita]' role='measure' type='quantitative' />
+      <column caption='Energy Per Gdp' datatype='real' name='[energy_per_gdp]' role='measure' type='quantitative' />
+      <column caption='Fossil Cons Change Pct' datatype='real' name='[fossil_cons_change_pct]' role='measure' type='quantitative' />
+      <column caption='Fossil Cons Change Twh' datatype='real' name='[fossil_cons_change_twh]' role='measure' type='quantitative' />
+      <column caption='Fossil Cons Per Capita' datatype='real' name='[fossil_cons_per_capita]' role='measure' type='quantitative' />
+      <column caption='Fossil Electricity' datatype='real' name='[fossil_electricity]' role='measure' type='quantitative' />
+      <column caption='Fossil Energy Per Capita' datatype='real' name='[fossil_energy_per_capita]' role='measure' type='quantitative' />
+      <column caption='Fossil Fuel Consumption' datatype='real' name='[fossil_fuel_consumption]' role='measure' type='quantitative' />
+      <column caption='Fossil Share Elec' datatype='real' name='[fossil_share_elec]' role='measure' type='quantitative' />
+      <column caption='Fossil Share Energy' datatype='real' name='[fossil_share_energy]' role='measure' type='quantitative' />
+      <column caption='Gas Cons Change Pct' datatype='real' name='[gas_cons_change_pct]' role='measure' type='quantitative' />
+      <column caption='Gas Cons Change Twh' datatype='real' name='[gas_cons_change_twh]' role='measure' type='quantitative' />
+      <column caption='Gas Consumption' datatype='real' name='[gas_consumption]' role='measure' type='quantitative' />
+      <column caption='Gas Elec Per Capita' datatype='real' name='[gas_elec_per_capita]' role='measure' type='quantitative' />
+      <column caption='Gas Electricity' datatype='real' name='[gas_electricity]' role='measure' type='quantitative' />
+      <column caption='Gas Energy Per Capita' datatype='real' name='[gas_energy_per_capita]' role='measure' type='quantitative' />
+      <column caption='Gas Prod Change Pct' datatype='real' name='[gas_prod_change_pct]' role='measure' type='quantitative' />
+      <column caption='Gas Prod Change Twh' datatype='real' name='[gas_prod_change_twh]' role='measure' type='quantitative' />
+      <column caption='Gas Prod Per Capita' datatype='real' name='[gas_prod_per_capita]' role='measure' type='quantitative' />
+      <column caption='Gas Production' datatype='real' name='[gas_production]' role='measure' type='quantitative' />
+      <column caption='Gas Share Elec' datatype='real' name='[gas_share_elec]' role='measure' type='quantitative' />
+      <column caption='Gas Share Energy' datatype='real' name='[gas_share_energy]' role='measure' type='quantitative' />
+      <column caption='Gdp' datatype='real' name='[gdp]' role='measure' type='quantitative' />
+      <column caption='Hydro Cons Change Pct' datatype='real' name='[hydro_cons_change_pct]' role='measure' type='quantitative' />
+      <column caption='Hydro Cons Change Twh' datatype='real' name='[hydro_cons_change_twh]' role='measure' type='quantitative' />
+      <column caption='Hydro Consumption' datatype='real' name='[hydro_consumption]' role='measure' type='quantitative' />
+      <column caption='Hydro Elec Per Capita' datatype='real' name='[hydro_elec_per_capita]' role='measure' type='quantitative' />
+      <column caption='Hydro Electricity' datatype='real' name='[hydro_electricity]' role='measure' type='quantitative' />
+      <column caption='Hydro Energy Per Capita' datatype='real' name='[hydro_energy_per_capita]' role='measure' type='quantitative' />
+      <column caption='Hydro Share Elec' datatype='real' name='[hydro_share_elec]' role='measure' type='quantitative' />
+      <column caption='Hydro Share Energy' datatype='real' name='[hydro_share_energy]' role='measure' type='quantitative' />
+      <column caption='Iso Code' datatype='string' name='[iso_code]' role='dimension' type='nominal' />
+      <column caption='Low Carbon Cons Change Pct' datatype='real' name='[low_carbon_cons_change_pct]' role='measure' type='quantitative' />
+      <column caption='Low Carbon Cons Change Twh' datatype='real' name='[low_carbon_cons_change_twh]' role='measure' type='quantitative' />
+      <column caption='Low Carbon Consumption' datatype='real' name='[low_carbon_consumption]' role='measure' type='quantitative' />
+      <column caption='Low Carbon Elec Per Capita' datatype='real' name='[low_carbon_elec_per_capita]' role='measure' type='quantitative' />
+      <column caption='Low Carbon Electricity' datatype='real' name='[low_carbon_electricity]' role='measure' type='quantitative' />
+      <column caption='Low Carbon Energy Per Capita' datatype='real' name='[low_carbon_energy_per_capita]' role='measure' type='quantitative' />
+      <column caption='Low Carbon Share Elec' datatype='real' name='[low_carbon_share_elec]' role='measure' type='quantitative' />
+      <column caption='Low Carbon Share Energy' datatype='real' name='[low_carbon_share_energy]' role='measure' type='quantitative' />
+      <column caption='Nuclear Cons Change Pct' datatype='real' name='[nuclear_cons_change_pct]' role='measure' type='quantitative' />
+      <column caption='Nuclear Cons Change Twh' datatype='real' name='[nuclear_cons_change_twh]' role='measure' type='quantitative' />
+      <column caption='Nuclear Consumption' datatype='real' name='[nuclear_consumption]' role='measure' type='quantitative' />
+      <column caption='Nuclear Elec Per Capita' datatype='real' name='[nuclear_elec_per_capita]' role='measure' type='quantitative' />
+      <column caption='Nuclear Electricity' datatype='real' name='[nuclear_electricity]' role='measure' type='quantitative' />
+      <column caption='Nuclear Energy Per Capita' datatype='real' name='[nuclear_energy_per_capita]' role='measure' type='quantitative' />
+      <column caption='Nuclear Share Elec' datatype='real' name='[nuclear_share_elec]' role='measure' type='quantitative' />
+      <column caption='Nuclear Share Energy' datatype='real' name='[nuclear_share_energy]' role='measure' type='quantitative' />
+      <column caption='Oil Cons Change Pct' datatype='real' name='[oil_cons_change_pct]' role='measure' type='quantitative' />
+      <column caption='Oil Cons Change Twh' datatype='real' name='[oil_cons_change_twh]' role='measure' type='quantitative' />
+      <column caption='Oil Consumption' datatype='real' name='[oil_consumption]' role='measure' type='quantitative' />
+      <column caption='Oil Elec Per Capita' datatype='real' name='[oil_elec_per_capita]' role='measure' type='quantitative' />
+      <column caption='Oil Electricity' datatype='real' name='[oil_electricity]' role='measure' type='quantitative' />
+      <column caption='Oil Energy Per Capita' datatype='real' name='[oil_energy_per_capita]' role='measure' type='quantitative' />
+      <column caption='Oil Prod Change Pct' datatype='real' name='[oil_prod_change_pct]' role='measure' type='quantitative' />
+      <column caption='Oil Prod Change Twh' datatype='real' name='[oil_prod_change_twh]' role='measure' type='quantitative' />
+      <column caption='Oil Prod Per Capita' datatype='real' name='[oil_prod_per_capita]' role='measure' type='quantitative' />
+      <column caption='Oil Production' datatype='real' name='[oil_production]' role='measure' type='quantitative' />
+      <column caption='Oil Share Elec' datatype='real' name='[oil_share_elec]' role='measure' type='quantitative' />
+      <column caption='Oil Share Energy' datatype='real' name='[oil_share_energy]' role='measure' type='quantitative' />
+      <column caption='Other Renewable Consumption' datatype='real' name='[other_renewable_consumption]' role='measure' type='quantitative' />
+      <column caption='Other Renewable Electricity' datatype='real' name='[other_renewable_electricity]' role='measure' type='quantitative' />
+      <column caption='Other Renewable Exc Biofuel Electricity' datatype='real' name='[other_renewable_exc_biofuel_electricity]' role='measure' type='quantitative' />
+      <column caption='Other Renewables Cons Change Pct' datatype='real' name='[other_renewables_cons_change_pct]' role='measure' type='quantitative' />
+      <column caption='Other Renewables Cons Change Twh' datatype='real' name='[other_renewables_cons_change_twh]' role='measure' type='quantitative' />
+      <column caption='Other Renewables Elec Per Capita' datatype='real' name='[other_renewables_elec_per_capita]' role='measure' type='quantitative' />
+      <column caption='Other Renewables Elec Per Capita Exc Biofuel' datatype='real' name='[other_renewables_elec_per_capita_exc_biofuel]' role='measure' type='quantitative' />
+      <column caption='Other Renewables Energy Per Capita' datatype='real' name='[other_renewables_energy_per_capita]' role='measure' type='quantitative' />
+      <column caption='Other Renewables Share Elec' datatype='real' name='[other_renewables_share_elec]' role='measure' type='quantitative' />
+      <column caption='Other Renewables Share Elec Exc Biofuel' datatype='real' name='[other_renewables_share_elec_exc_biofuel]' role='measure' type='quantitative' />
+      <column caption='Other Renewables Share Energy' datatype='real' name='[other_renewables_share_energy]' role='measure' type='quantitative' />
+      <column caption='Per Capita Electricity' datatype='real' name='[per_capita_electricity]' role='measure' type='quantitative' />
+      <column caption='Population' datatype='real' name='[population]' role='measure' type='quantitative' />
+      <column caption='Primary Energy Consumption' datatype='real' name='[primary_energy_consumption]' role='measure' type='quantitative' />
+      <column caption='Renewables Cons Change Pct' datatype='real' name='[renewables_cons_change_pct]' role='measure' type='quantitative' />
+      <column caption='Renewables Cons Change Twh' datatype='real' name='[renewables_cons_change_twh]' role='measure' type='quantitative' />
+      <column caption='Renewables Consumption' datatype='real' name='[renewables_consumption]' role='measure' type='quantitative' />
+      <column caption='Renewables Elec Per Capita' datatype='real' name='[renewables_elec_per_capita]' role='measure' type='quantitative' />
+      <column caption='Renewables Electricity' datatype='real' name='[renewables_electricity]' role='measure' type='quantitative' />
+      <column caption='Renewables Energy Per Capita' datatype='real' name='[renewables_energy_per_capita]' role='measure' type='quantitative' />
+      <column caption='Renewables Share Elec' datatype='real' name='[renewables_share_elec]' role='measure' type='quantitative' />
+      <column caption='Renewables Share Energy' datatype='real' name='[renewables_share_energy]' role='measure' type='quantitative' />
+      <column caption='Solar Cons Change Pct' datatype='real' name='[solar_cons_change_pct]' role='measure' type='quantitative' />
+      <column caption='Solar Cons Change Twh' datatype='real' name='[solar_cons_change_twh]' role='measure' type='quantitative' />
+      <column caption='Solar Consumption' datatype='real' name='[solar_consumption]' role='measure' type='quantitative' />
+      <column caption='Solar Elec Per Capita' datatype='real' name='[solar_elec_per_capita]' role='measure' type='quantitative' />
+      <column caption='Solar Electricity' datatype='real' name='[solar_electricity]' role='measure' type='quantitative' />
+      <column caption='Solar Energy Per Capita' datatype='real' name='[solar_energy_per_capita]' role='measure' type='quantitative' />
+      <column caption='Solar Share Elec' datatype='real' name='[solar_share_elec]' role='measure' type='quantitative' />
+      <column caption='Solar Share Energy' datatype='real' name='[solar_share_energy]' role='measure' type='quantitative' />
+      <column caption='Wind Cons Change Pct' datatype='real' name='[wind_cons_change_pct]' role='measure' type='quantitative' />
+      <column caption='Wind Cons Change Twh' datatype='real' name='[wind_cons_change_twh]' role='measure' type='quantitative' />
+      <column caption='Wind Consumption' datatype='real' name='[wind_consumption]' role='measure' type='quantitative' />
+      <column caption='Wind Elec Per Capita' datatype='real' name='[wind_elec_per_capita]' role='measure' type='quantitative' />
+      <column caption='Wind Electricity' datatype='real' name='[wind_electricity]' role='measure' type='quantitative' />
+      <column caption='Wind Energy Per Capita' datatype='real' name='[wind_energy_per_capita]' role='measure' type='quantitative' />
+      <column caption='Wind Share Elec' datatype='real' name='[wind_share_elec]' role='measure' type='quantitative' />
+      <column caption='Wind Share Energy' datatype='real' name='[wind_share_energy]' role='measure' type='quantitative' />
+      <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+      <column-instance column='[fossil_share_energy]' derivation='Sum' name='[sum:fossil_share_energy:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[low_carbon_share_energy]' derivation='Sum' name='[sum:low_carbon_share_energy:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[nuclear_share_energy]' derivation='Sum' name='[sum:nuclear_share_energy:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[other_renewables_share_energy]' derivation='Sum' name='[sum:other_renewables_share_energy:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[renewables_share_energy]' derivation='Sum' name='[sum:renewables_share_energy:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.083nrii1ikv1xj14k89e80705w6i].[sum:fossil_share_energy:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.083nrii1ikv1xj14k89e80705w6i].[sum:nuclear_share_energy:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.083nrii1ikv1xj14k89e80705w6i].[sum:low_carbon_share_energy:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.083nrii1ikv1xj14k89e80705w6i].[sum:other_renewables_share_energy:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.083nrii1ikv1xj14k89e80705w6i].[sum:renewables_share_energy:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='owid-energy-data.csv' id='owid-energy-data.csv_82D66703734F44828B348AE84C408BE3'>
+            <properties context=''>
+              <relation connection='textscan.1w6cwml06xot9s106ahd910qeet2' name='owid-energy-data.csv' table='[owid-energy-data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en' separator=','>
+                  <column datatype='string' name='iso_code' ordinal='0' />
+                  <column datatype='string' name='country' ordinal='1' />
+                  <column datatype='integer' name='year' ordinal='2' />
+                  <column datatype='real' name='coal_prod_change_pct' ordinal='3' />
+                  <column datatype='real' name='coal_prod_change_twh' ordinal='4' />
+                  <column datatype='real' name='gas_prod_change_pct' ordinal='5' />
+                  <column datatype='real' name='gas_prod_change_twh' ordinal='6' />
+                  <column datatype='real' name='oil_prod_change_pct' ordinal='7' />
+                  <column datatype='real' name='oil_prod_change_twh' ordinal='8' />
+                  <column datatype='real' name='energy_cons_change_pct' ordinal='9' />
+                  <column datatype='real' name='energy_cons_change_twh' ordinal='10' />
+                  <column datatype='real' name='biofuel_share_elec' ordinal='11' />
+                  <column datatype='real' name='biofuel_elec_per_capita' ordinal='12' />
+                  <column datatype='real' name='biofuel_cons_change_pct' ordinal='13' />
+                  <column datatype='real' name='biofuel_share_energy' ordinal='14' />
+                  <column datatype='real' name='biofuel_cons_change_twh' ordinal='15' />
+                  <column datatype='real' name='biofuel_consumption' ordinal='16' />
+                  <column datatype='real' name='biofuel_cons_per_capita' ordinal='17' />
+                  <column datatype='string' name='carbon_intensity_elec' ordinal='18' />
+                  <column datatype='real' name='coal_share_elec' ordinal='19' />
+                  <column datatype='real' name='coal_cons_change_pct' ordinal='20' />
+                  <column datatype='real' name='coal_share_energy' ordinal='21' />
+                  <column datatype='real' name='coal_cons_change_twh' ordinal='22' />
+                  <column datatype='real' name='coal_consumption' ordinal='23' />
+                  <column datatype='real' name='coal_elec_per_capita' ordinal='24' />
+                  <column datatype='real' name='coal_cons_per_capita' ordinal='25' />
+                  <column datatype='real' name='coal_production' ordinal='26' />
+                  <column datatype='real' name='coal_prod_per_capita' ordinal='27' />
+                  <column datatype='real' name='biofuel_electricity' ordinal='28' />
+                  <column datatype='real' name='coal_electricity' ordinal='29' />
+                  <column datatype='real' name='fossil_electricity' ordinal='30' />
+                  <column datatype='real' name='gas_electricity' ordinal='31' />
+                  <column datatype='real' name='hydro_electricity' ordinal='32' />
+                  <column datatype='real' name='nuclear_electricity' ordinal='33' />
+                  <column datatype='real' name='oil_electricity' ordinal='34' />
+                  <column datatype='real' name='other_renewable_exc_biofuel_electricity' ordinal='35' />
+                  <column datatype='real' name='other_renewable_electricity' ordinal='36' />
+                  <column datatype='real' name='renewables_electricity' ordinal='37' />
+                  <column datatype='real' name='solar_electricity' ordinal='38' />
+                  <column datatype='real' name='wind_electricity' ordinal='39' />
+                  <column datatype='real' name='electricity_generation' ordinal='40' />
+                  <column datatype='real' name='energy_per_gdp' ordinal='41' />
+                  <column datatype='real' name='energy_per_capita' ordinal='42' />
+                  <column datatype='real' name='fossil_cons_change_pct' ordinal='43' />
+                  <column datatype='real' name='fossil_share_energy' ordinal='44' />
+                  <column datatype='real' name='fossil_cons_change_twh' ordinal='45' />
+                  <column datatype='real' name='fossil_fuel_consumption' ordinal='46' />
+                  <column datatype='real' name='fossil_energy_per_capita' ordinal='47' />
+                  <column datatype='real' name='fossil_cons_per_capita' ordinal='48' />
+                  <column datatype='real' name='fossil_share_elec' ordinal='49' />
+                  <column datatype='real' name='gas_share_elec' ordinal='50' />
+                  <column datatype='real' name='gas_cons_change_pct' ordinal='51' />
+                  <column datatype='real' name='gas_share_energy' ordinal='52' />
+                  <column datatype='real' name='gas_cons_change_twh' ordinal='53' />
+                  <column datatype='real' name='gas_consumption' ordinal='54' />
+                  <column datatype='real' name='gas_elec_per_capita' ordinal='55' />
+                  <column datatype='real' name='gas_energy_per_capita' ordinal='56' />
+                  <column datatype='real' name='gas_production' ordinal='57' />
+                  <column datatype='real' name='gas_prod_per_capita' ordinal='58' />
+                  <column datatype='real' name='hydro_share_elec' ordinal='59' />
+                  <column datatype='real' name='hydro_cons_change_pct' ordinal='60' />
+                  <column datatype='real' name='hydro_share_energy' ordinal='61' />
+                  <column datatype='real' name='hydro_cons_change_twh' ordinal='62' />
+                  <column datatype='real' name='hydro_consumption' ordinal='63' />
+                  <column datatype='real' name='hydro_elec_per_capita' ordinal='64' />
+                  <column datatype='real' name='hydro_energy_per_capita' ordinal='65' />
+                  <column datatype='real' name='low_carbon_share_elec' ordinal='66' />
+                  <column datatype='real' name='low_carbon_electricity' ordinal='67' />
+                  <column datatype='real' name='low_carbon_elec_per_capita' ordinal='68' />
+                  <column datatype='real' name='low_carbon_cons_change_pct' ordinal='69' />
+                  <column datatype='real' name='low_carbon_share_energy' ordinal='70' />
+                  <column datatype='real' name='low_carbon_cons_change_twh' ordinal='71' />
+                  <column datatype='real' name='low_carbon_consumption' ordinal='72' />
+                  <column datatype='real' name='low_carbon_energy_per_capita' ordinal='73' />
+                  <column datatype='real' name='nuclear_share_elec' ordinal='74' />
+                  <column datatype='real' name='nuclear_cons_change_pct' ordinal='75' />
+                  <column datatype='real' name='nuclear_share_energy' ordinal='76' />
+                  <column datatype='real' name='nuclear_cons_change_twh' ordinal='77' />
+                  <column datatype='real' name='nuclear_consumption' ordinal='78' />
+                  <column datatype='real' name='nuclear_elec_per_capita' ordinal='79' />
+                  <column datatype='real' name='nuclear_energy_per_capita' ordinal='80' />
+                  <column datatype='real' name='oil_share_elec' ordinal='81' />
+                  <column datatype='real' name='oil_cons_change_pct' ordinal='82' />
+                  <column datatype='real' name='oil_share_energy' ordinal='83' />
+                  <column datatype='real' name='oil_cons_change_twh' ordinal='84' />
+                  <column datatype='real' name='oil_consumption' ordinal='85' />
+                  <column datatype='real' name='oil_elec_per_capita' ordinal='86' />
+                  <column datatype='real' name='oil_energy_per_capita' ordinal='87' />
+                  <column datatype='real' name='oil_production' ordinal='88' />
+                  <column datatype='real' name='oil_prod_per_capita' ordinal='89' />
+                  <column datatype='real' name='other_renewables_elec_per_capita_exc_biofuel' ordinal='90' />
+                  <column datatype='real' name='other_renewables_elec_per_capita' ordinal='91' />
+                  <column datatype='real' name='other_renewables_cons_change_pct' ordinal='92' />
+                  <column datatype='real' name='other_renewables_share_energy' ordinal='93' />
+                  <column datatype='real' name='other_renewables_cons_change_twh' ordinal='94' />
+                  <column datatype='real' name='other_renewable_consumption' ordinal='95' />
+                  <column datatype='real' name='other_renewables_share_elec_exc_biofuel' ordinal='96' />
+                  <column datatype='real' name='other_renewables_share_elec' ordinal='97' />
+                  <column datatype='real' name='other_renewables_energy_per_capita' ordinal='98' />
+                  <column datatype='real' name='per_capita_electricity' ordinal='99' />
+                  <column datatype='real' name='population' ordinal='100' />
+                  <column datatype='real' name='primary_energy_consumption' ordinal='101' />
+                  <column datatype='real' name='renewables_elec_per_capita' ordinal='102' />
+                  <column datatype='real' name='renewables_share_elec' ordinal='103' />
+                  <column datatype='real' name='renewables_cons_change_pct' ordinal='104' />
+                  <column datatype='real' name='renewables_share_energy' ordinal='105' />
+                  <column datatype='real' name='renewables_cons_change_twh' ordinal='106' />
+                  <column datatype='real' name='renewables_consumption' ordinal='107' />
+                  <column datatype='real' name='renewables_energy_per_capita' ordinal='108' />
+                  <column datatype='real' name='solar_share_elec' ordinal='109' />
+                  <column datatype='real' name='solar_cons_change_pct' ordinal='110' />
+                  <column datatype='real' name='solar_share_energy' ordinal='111' />
+                  <column datatype='real' name='solar_cons_change_twh' ordinal='112' />
+                  <column datatype='real' name='solar_consumption' ordinal='113' />
+                  <column datatype='real' name='solar_elec_per_capita' ordinal='114' />
+                  <column datatype='real' name='solar_energy_per_capita' ordinal='115' />
+                  <column datatype='real' name='gdp' ordinal='116' />
+                  <column datatype='real' name='wind_share_elec' ordinal='117' />
+                  <column datatype='real' name='wind_cons_change_pct' ordinal='118' />
+                  <column datatype='real' name='wind_share_energy' ordinal='119' />
+                  <column datatype='real' name='wind_cons_change_twh' ordinal='120' />
+                  <column datatype='real' name='wind_consumption' ordinal='121' />
+                  <column datatype='real' name='wind_elec_per_capita' ordinal='122' />
+                  <column datatype='real' name='wind_energy_per_capita' ordinal='123' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='owid-energy-data' name='federated.083nrii1ikv1xj14k89e80705w6i' />
+          </datasources>
+          <datasource-dependencies datasource='federated.083nrii1ikv1xj14k89e80705w6i'>
+            <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Fossil Share Energy' datatype='real' name='[fossil_share_energy]' role='measure' type='quantitative' />
+            <column-instance column='[country]' derivation='None' name='[none:country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[year]' derivation='None' name='[none:year:qk]' pivot='key' type='quantitative' />
+            <column caption='Nuclear Share Energy' datatype='real' name='[nuclear_share_energy]' role='measure' type='quantitative' />
+            <column caption='Renewables Share Energy' datatype='real' name='[renewables_share_energy]' role='measure' type='quantitative' />
+            <column-instance column='[fossil_share_energy]' derivation='Sum' name='[sum:fossil_share_energy:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[nuclear_share_energy]' derivation='Sum' name='[sum:nuclear_share_energy:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[renewables_share_energy]' derivation='Sum' name='[sum:renewables_share_energy:qk]' pivot='key' type='quantitative' />
+            <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.083nrii1ikv1xj14k89e80705w6i].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.083nrii1ikv1xj14k89e80705w6i].[sum:renewables_share_energy:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.083nrii1ikv1xj14k89e80705w6i].[sum:nuclear_share_energy:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.083nrii1ikv1xj14k89e80705w6i].[sum:fossil_share_energy:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.083nrii1ikv1xj14k89e80705w6i].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.083nrii1ikv1xj14k89e80705w6i].[sum:renewables_share_energy:qk]&quot;</bucket>
+              <bucket>&quot;[federated.083nrii1ikv1xj14k89e80705w6i].[sum:nuclear_share_energy:qk]&quot;</bucket>
+              <bucket>&quot;[federated.083nrii1ikv1xj14k89e80705w6i].[sum:fossil_share_energy:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.083nrii1ikv1xj14k89e80705w6i].[none:country:nk]'>
+            <groupfilter function='member' level='[none:country:nk]' member='&quot;World&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.083nrii1ikv1xj14k89e80705w6i].[none:year:qk]' included-values='in-range'>
+            <min>2000</min>
+            <max>2020</max>
+          </filter>
+          <filter class='quantitative' column='[federated.083nrii1ikv1xj14k89e80705w6i].[sum:fossil_share_energy:qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.083nrii1ikv1xj14k89e80705w6i].[sum:nuclear_share_energy:qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.083nrii1ikv1xj14k89e80705w6i].[sum:renewables_share_energy:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.083nrii1ikv1xj14k89e80705w6i].[none:country:nk]</column>
+            <column>[federated.083nrii1ikv1xj14k89e80705w6i].[none:year:qk]</column>
+            <column>[federated.083nrii1ikv1xj14k89e80705w6i].[:Measure Names]</column>
+            <column>[federated.083nrii1ikv1xj14k89e80705w6i].[sum:fossil_share_energy:qk]</column>
+            <column>[federated.083nrii1ikv1xj14k89e80705w6i].[sum:nuclear_share_energy:qk]</column>
+            <column>[federated.083nrii1ikv1xj14k89e80705w6i].[sum:renewables_share_energy:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.083nrii1ikv1xj14k89e80705w6i].[Multiple Values]' scope='rows' value='Cummulative Energy Share in %' />
+            <encoding attr='space' class='0' field='[federated.083nrii1ikv1xj14k89e80705w6i].[Multiple Values]' field-type='quantitative' minor-origin='0.0' minor-spacing='1.0' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.083nrii1ikv1xj14k89e80705w6i].[:Measure Names]' />
+              <lod column='[federated.083nrii1ikv1xj14k89e80705w6i].[:Measure Names]' />
+              <text column='[federated.083nrii1ikv1xj14k89e80705w6i].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.083nrii1ikv1xj14k89e80705w6i].[Multiple Values]</rows>
+        <cols>[federated.083nrii1ikv1xj14k89e80705w6i].[none:year:qk]</cols>
+      </table>
+      <simple-id uuid='{966C8C5A-51FE-477D-A825-2D318DCEEBBC}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.083nrii1ikv1xj14k89e80705w6i].[none:country:nk]' type='filter' />
+            <card pane-specification-id='2' param='[federated.083nrii1ikv1xj14k89e80705w6i].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.083nrii1ikv1xj14k89e80705w6i].[:Measure Names]</field>
+            <field>[federated.083nrii1ikv1xj14k89e80705w6i].[none:country:nk]</field>
+            <field>[federated.083nrii1ikv1xj14k89e80705w6i].[none:year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{4ACBFB17-30DC-4EEA-B78F-4A01C378E7C3}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Sheet 1' width='384'>
+      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
+      RU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
