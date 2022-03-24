@@ -44,3 +44,8 @@ Energy consumption is shown as direct primary energy. This means this does not c
 inefficiencies in conversion to useful energy estimates.
 
 https://ourworldindata.org/grapher/primary-energy-consumption-by-source
+
+# Primary Energy consumption by country by energy source
+No information about 'substitution method'
+
+https://github.com/owid/energy-data
