@@ -12,6 +12,7 @@
 * [Death rates from energy production](https://ourworldindata.org/grapher/death-rates-from-energy-production-per-twh)
 * [Import/export of embedded energy in traged Goods](https://ourworldindata.org/grapher/traded-energy-share-domestic)
 * [Investment in renewable energies](https://ourworldindata.org/grapher/investment-in-renewable-energy-by-technology)
+* [How did renewables become cheap so fast](https://ourworldindata.org/cheap-renewables-growth)
 
 # GDP-PPP
 * GDP, PPP (current international $) 
