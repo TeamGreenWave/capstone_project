@@ -21,7 +21,7 @@
 https://data.worldbank.org/indicator/NY.GDP.MKTP.PP.KD
 
 
-# Primary Energy consumption by source, Countries and Regions
+# Primary Energy consumption by source, Countries and Regions - no Africa
 Primary energy consumption is measured in terawatt-hours (TWh). Here an inefficiency factor (the 'substitution'
 method) has been applied for fossil fuels, meaning the shares by each energy source give a better approximation of
 final energy consumption: takes account of the inefficiencies in fossil fuel
@@ -31,7 +31,7 @@ fossil fuels.
 https://ourworldindata.org/grapher/energy-consumption-by-source-and-region
 
 
-# Per capita primary energy consumption by source, Countries and Regions
+# Per capita primary energy consumption by source, Countries and Regions - no Africa
 Primary energy is calculated based on the 'substitution method' which takes account of the inefficiencies in fossil fuel
 production by converting non-fossil energy into the energy inputs required if they had the same conversion losses as
 fossil fuels.
@@ -39,7 +39,7 @@ fossil fuels.
 https://ourworldindata.org/grapher/per-capita-energy-stacked
 
 
-# Primary direct energy consumption by source, Countries and Regions
+# Primary direct energy consumption by source, Countries and Regions - no Africa
 Energy consumption is shown as direct primary energy. This means this does not correct for fossil fuel
 inefficiencies in conversion to useful energy estimates.
 
