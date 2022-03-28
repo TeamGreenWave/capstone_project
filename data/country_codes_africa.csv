@@ -1,0 +1,53 @@
+,location_id,location_code,location_name_short_en
+0,2,AGO,Angola
+1,17,BDI,Burundi
+2,19,BEN,Benin
+3,21,BFA,Burkina Faso
+4,37,BWA,Botswana
+5,38,CAF,Central African Republic
+6,44,CIV,Côte d'Ivoire
+7,45,CMR,Cameroon
+8,46,COD,Congo (Democratic Republic of the)
+9,50,COM,Comoros
+10,51,CPV,Cabo Verde
+11,62,DJI,Djibouti
+12,66,DZA,Algeria
+13,68,EGY,Egypt
+14,69,ERI,Eritrea
+15,73,ETH,Ethiopia
+16,80,GAB,Gabon
+17,83,GHA,Ghana
+18,85,GIN,Guinea
+19,87,GMB,Gambia
+20,88,GNB,Guinea-Bissau
+21,116,KEN,Kenya
+22,125,LBR,Liberia
+23,126,LBY,Libya
+24,129,LSO,Lesotho
+25,134,MAR,Morocco
+26,136,MDG,Madagascar
+27,141,MLI,Mali
+28,147,MOZ,Mozambique
+29,148,MRT,Mauritania
+30,151,MUS,Mauritius
+31,152,MWI,Malawi
+32,155,NAM,Namibia
+33,157,NER,Niger
+34,159,NGA,Nigeria
+35,187,RWA,Rwanda
+36,190,SDN,Sudan
+37,191,SEN,Senegal
+38,196,SLE,Sierra Leone
+39,199,SOM,Somalia
+40,202,SSD,South Sudan
+41,203,STP,Sao Tome and Principe
+42,209,SWZ,Eswatini
+43,211,SYC,Seychelles
+44,214,TCD,Chad
+45,215,TGO,Togo
+46,223,TUN,Tunisia
+47,226,TZA,Tanzania
+48,227,UGA,Uganda
+49,246,ZAF,South Africa
+50,247,ZMB,Zambia
+51,248,ZWE,Zimbabwe
