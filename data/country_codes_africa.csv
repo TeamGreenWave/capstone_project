@@ -8,46 +8,47 @@
 6,44,CIV,Côte d'Ivoire
 7,45,CMR,Cameroon
 8,46,COD,Congo (Democratic Republic of the)
-9,50,COM,Comoros
-10,51,CPV,Cabo Verde
-11,62,DJI,Djibouti
-12,66,DZA,Algeria
-13,68,EGY,Egypt
-14,69,ERI,Eritrea
-15,73,ETH,Ethiopia
-16,80,GAB,Gabon
-17,83,GHA,Ghana
-18,85,GIN,Guinea
-19,87,GMB,Gambia
-20,88,GNB,Guinea-Bissau
-21,116,KEN,Kenya
-22,125,LBR,Liberia
-23,126,LBY,Libya
-24,129,LSO,Lesotho
-25,134,MAR,Morocco
-26,136,MDG,Madagascar
-27,141,MLI,Mali
-28,147,MOZ,Mozambique
-29,148,MRT,Mauritania
-30,151,MUS,Mauritius
-31,152,MWI,Malawi
-32,155,NAM,Namibia
-33,157,NER,Niger
-34,159,NGA,Nigeria
-35,187,RWA,Rwanda
-36,190,SDN,Sudan
-37,191,SEN,Senegal
-38,196,SLE,Sierra Leone
-39,199,SOM,Somalia
-40,202,SSD,South Sudan
-41,203,STP,Sao Tome and Principe
-42,209,SWZ,Eswatini
-43,211,SYC,Seychelles
-44,214,TCD,Chad
-45,215,TGO,Togo
-46,223,TUN,Tunisia
-47,226,TZA,Tanzania
-48,227,UGA,Uganda
-49,246,ZAF,South Africa
-50,247,ZMB,Zambia
-51,248,ZWE,Zimbabwe
+9,47,COG,Congo
+10,50,COM,Comoros
+11,51,CPV,Cabo Verde
+12,62,DJI,Djibouti
+13,66,DZA,Algeria
+14,68,EGY,Egypt
+15,69,ERI,Eritrea
+16,73,ETH,Ethiopia
+17,80,GAB,Gabon
+18,83,GHA,Ghana
+19,85,GIN,Guinea
+20,87,GMB,Gambia
+21,88,GNB,Guinea-Bissau
+22,116,KEN,Kenya
+23,125,LBR,Liberia
+24,126,LBY,Libya
+25,129,LSO,Lesotho
+26,134,MAR,Morocco
+27,136,MDG,Madagascar
+28,141,MLI,Mali
+29,147,MOZ,Mozambique
+30,148,MRT,Mauritania
+31,151,MUS,Mauritius
+32,152,MWI,Malawi
+33,155,NAM,Namibia
+34,157,NER,Niger
+35,159,NGA,Nigeria
+36,187,RWA,Rwanda
+37,190,SDN,Sudan
+38,191,SEN,Senegal
+39,196,SLE,Sierra Leone
+40,199,SOM,Somalia
+41,202,SSD,South Sudan
+42,203,STP,Sao Tome and Principe
+43,209,SWZ,Eswatini
+44,211,SYC,Seychelles
+45,214,TCD,Chad
+46,215,TGO,Togo
+47,223,TUN,Tunisia
+48,226,TZA,Tanzania
+49,227,UGA,Uganda
+50,246,ZAF,South Africa
+51,247,ZMB,Zambia
+52,248,ZWE,Zimbabwe
