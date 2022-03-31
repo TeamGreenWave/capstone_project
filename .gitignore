@@ -76,6 +76,8 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+playground_notebook_sls.ipynb
+
 
 # IPython
 profile_default/
@@ -127,3 +129,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+data/country_hsproduct4digit_year.csv
+data/country_hsproduct6digit_year.csv
+data/complete_env_product_trade_final.csv
+data/Archiv.zip
+
