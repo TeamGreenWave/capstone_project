@@ -130,13 +130,16 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-<<<<<<< HEAD
+
 data/country_hsproduct4digit_year.csv
 data/country_hsproduct6digit_year.csv
 data/complete_env_product_trade_final.csv
 data/Archiv.zip
 
-=======
 # mac folder information
 .DS_Store
->>>>>>> 5ebbae0a147d2d8e6a27b17daf4911e7213565d7
+
+
+/data/energy_prod_world/
+/data/continents_and_regions
+
