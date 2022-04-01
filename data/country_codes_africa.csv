@@ -1,54 +1,54 @@
-,location_id,location_code,location_name_short_en
-0,2,AGO,Angola
-1,17,BDI,Burundi
-2,19,BEN,Benin
-3,21,BFA,Burkina Faso
-4,37,BWA,Botswana
-5,38,CAF,Central African Republic
-6,44,CIV,Côte d'Ivoire
-7,45,CMR,Cameroon
-8,46,COD,Congo (Democratic Republic of the)
-9,47,COG,Congo
-10,50,COM,Comoros
-11,51,CPV,Cabo Verde
-12,62,DJI,Djibouti
-13,66,DZA,Algeria
-14,68,EGY,Egypt
-15,69,ERI,Eritrea
-16,73,ETH,Ethiopia
-17,80,GAB,Gabon
-18,83,GHA,Ghana
-19,85,GIN,Guinea
-20,87,GMB,Gambia
-21,88,GNB,Guinea-Bissau
-22,116,KEN,Kenya
-23,125,LBR,Liberia
-24,126,LBY,Libya
-25,129,LSO,Lesotho
-26,134,MAR,Morocco
-27,136,MDG,Madagascar
-28,141,MLI,Mali
-29,147,MOZ,Mozambique
-30,148,MRT,Mauritania
-31,151,MUS,Mauritius
-32,152,MWI,Malawi
-33,155,NAM,Namibia
-34,157,NER,Niger
-35,159,NGA,Nigeria
-36,187,RWA,Rwanda
-37,190,SDN,Sudan
-38,191,SEN,Senegal
-39,196,SLE,Sierra Leone
-40,199,SOM,Somalia
-41,202,SSD,South Sudan
-42,203,STP,Sao Tome and Principe
-43,209,SWZ,Eswatini
-44,211,SYC,Seychelles
-45,214,TCD,Chad
-46,215,TGO,Togo
-47,223,TUN,Tunisia
-48,226,TZA,Tanzania
-49,227,UGA,Uganda
-50,246,ZAF,South Africa
-51,247,ZMB,Zambia
-52,248,ZWE,Zimbabwe
+location_id,location_code,location_name_short_en
+2,AGO,Angola
+17,BDI,Burundi
+19,BEN,Benin
+21,BFA,Burkina Faso
+37,BWA,Botswana
+38,CAF,Central African Republic
+44,CIV,Côte d'Ivoire
+45,CMR,Cameroon
+46,COD,Congo (Democratic Republic of the)
+47,COG,Congo
+50,COM,Comoros
+51,CPV,Cabo Verde
+62,DJI,Djibouti
+66,DZA,Algeria
+68,EGY,Egypt
+69,ERI,Eritrea
+73,ETH,Ethiopia
+80,GAB,Gabon
+83,GHA,Ghana
+85,GIN,Guinea
+87,GMB,Gambia
+88,GNB,Guinea-Bissau
+116,KEN,Kenya
+125,LBR,Liberia
+126,LBY,Libya
+129,LSO,Lesotho
+134,MAR,Morocco
+136,MDG,Madagascar
+141,MLI,Mali
+147,MOZ,Mozambique
+148,MRT,Mauritania
+151,MUS,Mauritius
+152,MWI,Malawi
+155,NAM,Namibia
+157,NER,Niger
+159,NGA,Nigeria
+187,RWA,Rwanda
+190,SDN,Sudan
+191,SEN,Senegal
+196,SLE,Sierra Leone
+199,SOM,Somalia
+202,SSD,South Sudan
+203,STP,Sao Tome and Principe
+209,SWZ,Eswatini
+211,SYC,Seychelles
+214,TCD,Chad
+215,TGO,Togo
+223,TUN,Tunisia
+226,TZA,Tanzania
+227,UGA,Uganda
+246,ZAF,South Africa
+247,ZMB,Zambia
+248,ZWE,Zimbabwe
