@@ -1,0 +1,252 @@
+location_code,location_name_short_en,world_region
+ABW,Aruba,North America
+AIA,Anguilla,North America
+ANT,Netherlands Antilles,North America
+ATG,Antigua and Barbuda,North America
+BHS,Bahamas,North America
+BLM,Saint Barthélemy,North America
+BLZ,Belize,North America
+BMU,Bermuda,North America
+BRB,Barbados,North America
+CAN,Canada,North America
+CRI,Costa Rica,North America
+CUB,Cuba,North America
+CUW,Curaçao,North America
+CYM,Cayman Islands,North America
+DMA,Dominica,North America
+DOM,Dominican Republic,North America
+FLK,Falkland Islands,North America
+GLP,Guadeloupe,North America
+GRD,Grenada,North America
+GRL,Greenland,North America
+GTM,Guatemala,North America
+HND,Honduras,North America
+HTI,Haiti,North America
+JAM,Jamaica,North America
+KNA,Saint Kitts and Nevis,North America
+LCA,Saint Lucia,North America
+MEX,Mexico,North America
+MSR,Montserrat,North America
+MTQ,Martinique,North America
+NIC,Nicaragua,North America
+PAN,Panama,North America
+PCZ,Panama Canal Zone,North America
+SLV,El Salvador,North America
+SPM,Saint Pierre and Miquelon,North America
+SXM,St-Martin / St Maarten,North America
+TCA,Turks and Caicos Islands,North America
+TTO,Trinidad and Tobago,North America
+USA,United States of America,North America
+VCT,Saint Vincent and the Grenadines,North America
+VGB,Virgin Islands (British),North America
+VIR,Virgin Islands (U.S.),North America
+AFG,Afghanistan,Asia
+ARE,United Arab Emirates,Asia
+ARM,Armenia,Asia
+AZE,Azerbaijan,Asia
+BGD,Bangladesh,Asia
+BHR,Bahrain,Asia
+BRN,Brunei Darussalam,Asia
+BTN,Bhutan,Asia
+CHN,China,Asia
+CYP,Cyprus,Asia
+GEO,Georgia,Asia
+HKG,Hong Kong,Asia
+IDN,Indonesia,Asia
+IND,India,Asia
+IRN,Iran,Asia
+IRQ,Iraq,Asia
+ISR,Israel,Asia
+JOR,Jordan,Asia
+JPN,Japan,Asia
+KAZ,Kazakhstan,Asia
+KGZ,Kyrgyzstan,Asia
+KHM,Cambodia,Asia
+KOR,South Korea,Asia
+KWT,Kuwait,Asia
+LAO,Laos,Asia
+LBN,Lebanon,Asia
+LKA,Sri Lanka,Asia
+MAC,Macao,Asia
+MDV,Maldives,Asia
+MMR,Myanmar,Asia
+MNG,Mongolia,Asia
+MYS,Malaysia,Asia
+NPL,Nepal,Asia
+OMN,Oman,Asia
+PAK,Pakistan,Asia
+PHL,Philippines,Asia
+PRK,North Korea,Asia
+PSE,Palestine,Asia
+QAT,Qatar,Asia
+SAU,Saudi Arabia,Asia
+SGP,Singapore,Asia
+SYR,Syrian Arab Republic,Asia
+THA,Thailand,Asia
+TJK,Tajikistan,Asia
+TKM,Turkmenistan,Asia
+TLS,Timor-Leste,Asia
+TUR,Turkey,Asia
+UZB,Uzbekistan,Asia
+VDR,Fmr Dem. Rep. of Vietnam,Asia
+VNM,Vietnam,Asia
+YEM,Yemen,Asia
+YMD,Fmr Dem. Yemen,Asia
+TWN,Taiwan,Asia
+AGO,Angola,Africa
+BDI,Burundi,Africa
+BEN,Benin,Africa
+BFA,Burkina Faso,Africa
+BWA,Botswana,Africa
+CAF,Central African Republic,Africa
+CIV,Côte d'Ivoire,Africa
+CMR,Cameroon,Africa
+COD,Congo (Democratic Republic of the),Africa
+COG,Congo,Africa
+COM,Comoros,Africa
+CPV,Cabo Verde,Africa
+DJI,Djibouti,Africa
+DZA,Algeria,Africa
+EGY,Egypt,Africa
+ERI,Eritrea,Africa
+ESH,Western Sahara,Africa
+ETH,Ethiopia,Africa
+GAB,Gabon,Africa
+GHA,Ghana,Africa
+GIN,Guinea,Africa
+GMB,Gambia,Africa
+GNB,Guinea-Bissau,Africa
+GNQ,Equatorial Guinea,Africa
+KEN,Kenya,Africa
+LBR,Liberia,Africa
+LBY,Libya,Africa
+LSO,Lesotho,Africa
+MAR,Morocco,Africa
+MDG,Madagascar,Africa
+MLI,Mali,Africa
+MOZ,Mozambique,Africa
+MRT,Mauritania,Africa
+MUS,Mauritius,Africa
+MWI,Malawi,Africa
+MYT,Mayotte,Africa
+NAM,Namibia,Africa
+NER,Niger,Africa
+NGA,Nigeria,Africa
+REU,Réunion,Africa
+RWA,Rwanda,Africa
+SDN,Sudan,Africa
+SEN,Senegal,Africa
+SHN,"Saint Helena, Ascension and Tristan da Cunha",Africa
+SLE,Sierra Leone,Africa
+SOM,Somalia,Africa
+SSD,South Sudan,Africa
+STP,Sao Tome and Principe,Africa
+SWZ,Eswatini,Africa
+SYC,Seychelles,Africa
+TCD,Chad,Africa
+TGO,Togo,Africa
+TUN,Tunisia,Africa
+TZA,Tanzania,Africa
+UGA,Uganda,Africa
+ZAF,South Africa,Africa
+ZMB,Zambia,Africa
+ZWE,Zimbabwe,Africa
+ALB,Albania,Europe
+AND,Andorra,Europe
+AUT,Austria,Europe
+BEL,Belgium,Europe
+BGR,Bulgaria,Europe
+BIH,Bosnia and Herzegovina,Europe
+BLR,Belarus,Europe
+CHE,Switzerland,Europe
+CSK,Czechoslovakia,Europe
+CZE,Czech Republic,Europe
+DDR,Fmr Dem. Rep. of Germany,Europe
+DEU,Germany,Europe
+DNK,Denmark,Europe
+ESP,Spain,Europe
+EST,Estonia,Europe
+FIN,Finland,Europe
+FRA,France,Europe
+FRO,Faroe Islands,Europe
+GBR,United Kingdom,Europe
+GIB,Gibraltar,Europe
+GRC,Greece,Europe
+HRV,Croatia,Europe
+HUN,Hungary,Europe
+IRL,Ireland,Europe
+ISL,Iceland,Europe
+ITA,Italy,Europe
+LTU,Lithuania,Europe
+LUX,Luxembourg,Europe
+LVA,Latvia,Europe
+MDA,Moldova,Europe
+MKD,North Macedonia,Europe
+MLT,Malta,Europe
+MNE,Montenegro,Europe
+NLD,Netherlands,Europe
+NOR,Norway,Europe
+POL,Poland,Europe
+PRT,Portugal,Europe
+ROU,Romania,Europe
+RUS,Russian Federation,Europe
+SCG,Serbia and Montenegro,Europe
+SMR,San Marino,Europe
+SRB,Serbia,Europe
+SUN,Former USSR,Europe
+SVK,Slovakia,Europe
+SVN,Slovenia,Europe
+SWE,Sweden,Europe
+UKR,Ukraine,Europe
+VAT,Vatican City,Europe
+YUG,Yugoslavia,Europe
+ARG,Argentina,South America
+BES,Bonaire,South America
+BOL,Bolivia,South America
+BRA,Brazil,South America
+CHL,Chile,South America
+COL,Colombia,South America
+ECU,Ecuador,South America
+GUF,French Guiana,South America
+GUY,Guyana,South America
+PER,Peru,South America
+PRY,Paraguay,South America
+SUR,Suriname,South America
+URY,Uruguay,South America
+VEN,Venezuela,South America
+ASM,American Samoa,Other
+ATA,Antarctica,Other
+ATF,French Southern and Antarctic Lands,Other
+BVT,Bouvet Island,Other
+HMD,Heard and McDonald Islands,Other
+IOT,British Indian Ocean Territory,Other
+SGS,South Georgia and South Sandwich Islds.,Other
+UMI,United States Minor Outlying Islands,Other
+ANS,Undeclared Countries,Other
+AUS,Australia,Oceania
+CCK,Cocos (Keeling) Islands,Oceania
+COK,Cook Islands,Oceania
+CXR,Christmas Island,Oceania
+FJI,Fiji,Oceania
+FSM,Micronesia,Oceania
+GUM,Guam,Oceania
+KIR,Kiribati,Oceania
+MHL,Marshall Islands,Oceania
+MNP,Northern Mariana Islands,Oceania
+NCL,New Caledonia,Oceania
+NFK,Norfolk Island,Oceania
+NIU,Niue,Oceania
+NRU,Nauru,Oceania
+NZL,New Zealand,Oceania
+PCI,Fmr. Pacific Islands,Oceania
+PCN,Pitcairn,Oceania
+PLW,Palau,Oceania
+PNG,Papua New Guinea,Oceania
+PYF,French Polynesia,Oceania
+SLB,Solomon Islands,Oceania
+TKL,Tokelau,Oceania
+TON,Tonga,Oceania
+TUV,Tuvalu,Oceania
+VUT,Vanuatu,Oceania
+WLF,Wallis and Futuna,Oceania
+WSM,Samoa,Oceania
