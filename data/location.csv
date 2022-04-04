@@ -257,3 +257,4 @@ location_id,location_code,location_name_short_en,level,parent_id
 356,5,North America,region,
 357,6,South America,region,
 358,7,Other,region,
+359,WLD,World,region,
