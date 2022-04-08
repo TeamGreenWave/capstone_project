@@ -6746,35 +6746,6 @@
           </dictionary>
         </manual-sort>
       </default-sorts>
-      <field-sort-info field-sort-order-type='custom-order'>
-        <field-sort-custom-order field='F1' />
-        <field-sort-custom-order field='country' />
-        <field-sort-custom-order field='location_code' />
-        <field-sort-custom-order field='year' />
-        <field-sort-custom-order field='total_prod' />
-        <field-sort-custom-order field='coal' />
-        <field-sort-custom-order field='oil' />
-        <field-sort-custom-order field='gas' />
-        <field-sort-custom-order field='nuclear' />
-        <field-sort-custom-order field='hydroelectricity' />
-        <field-sort-custom-order field='wind' />
-        <field-sort-custom-order field='biofuel' />
-        <field-sort-custom-order field='solar_geothermal_other' />
-        <field-sort-custom-order field='fossil_fuels' />
-        <field-sort-custom-order field='Calculation_3449264754116706313' />
-        <field-sort-custom-order field='renewables' />
-        <field-sort-custom-order field='coal_share' />
-        <field-sort-custom-order field='oil_share' />
-        <field-sort-custom-order field='gas_share' />
-        <field-sort-custom-order field='nuclear_share' />
-        <field-sort-custom-order field='hydroelectricity_share' />
-        <field-sort-custom-order field='wind_share' />
-        <field-sort-custom-order field='biofuel_share' />
-        <field-sort-custom-order field='solar_geothermal_other_share' />
-        <field-sort-custom-order field='fossil_fuel_share' />
-        <field-sort-custom-order field='renewables_share' />
-        <field-sort-custom-order field='Hydroelectricity Share (bin)' />
-      </field-sort-info>
       <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
         <objects>
           <object caption='correlations.csv1' id='correlations.csv_6684DEB24E0B436E85D8C16AFC1B6643'>
@@ -8579,6 +8550,32 @@
       </table>
       <simple-id uuid='{91FB445B-B6D4-4C12-9B60-BA10D7EF8169}' />
     </worksheet>
+    <worksheet name='Sheet 28'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='world_primary_energy_production' name='federated.12ivi8e178uhbl10ycqcf076dcbt' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12ivi8e178uhbl10ycqcf076dcbt'>
+            <column-instance column='[year]' derivation='Year-Trunc' name='[tyr:year:qk]' pivot='key' type='quantitative' />
+            <column caption='Year' datatype='date' name='[year]' role='dimension' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.12ivi8e178uhbl10ycqcf076dcbt].[tyr:year:qk]</cols>
+      </table>
+      <simple-id uuid='{7E18855D-2754-4C98-8B73-1F38A16A3682}' />
+    </worksheet>
     <worksheet name='Stacked Area Chart of Fossil fuel Difference'>
       <table>
         <view>
@@ -8605,7 +8602,7 @@
             <column-instance column='[year (fossil_consumption_diff.csv)]' derivation='Year' name='[yr:year (fossil_consumption_diff.csv):ok]' pivot='key' type='ordinal' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.12ivi8e178uhbl10ycqcf076dcbt].[none:country (fossil_consumption_diff.csv):nk]'>
-            <groupfilter function='empty-level' member='[none:country (fossil_consumption_diff.csv):nk]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[none:country (fossil_consumption_diff.csv):nk]' member='&quot;United Arab Emirates&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <filter class='quantitative' column='[federated.12ivi8e178uhbl10ycqcf076dcbt].[sum:fossil_diff:qk]' included-values='non-null' />
           <filter class='categorical' column='[federated.12ivi8e178uhbl10ycqcf076dcbt].[yr:year (fossil_consumption_diff.csv):ok]'>
@@ -9931,7 +9928,7 @@
       </cards>
       <simple-id uuid='{56EA342E-0D62-4DA2-80F4-FB785A8A7F57}' />
     </window>
-    <window class='worksheet' maximized='true' name='Stacked Area Chart of Fossil fuel Difference' tab-color='#4f779a'>
+    <window class='worksheet' name='Stacked Area Chart of Fossil fuel Difference' tab-color='#4f779a'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -9959,6 +9956,29 @@
         </edge>
       </cards>
       <simple-id uuid='{7795D2AF-7D24-491B-9055-CD794897D1BC}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 28'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A36C0737-C997-4FB8-9E7E-6E9E3B810EED}' />
     </window>
   </windows>
 </workbook>
