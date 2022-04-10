@@ -1,4 +1,4 @@
-,iso_code,country,year,nuclear_consumption,coal_consumption,hydro_consumption,oil_consumption,gas_consumption,wind_consumption,solar_consumption,other_renewable_consumption,biofuel_consumption,low_carbon_consumption,renewables_consumption,fossil_consumption,total_consumption,fossil_diff,total_diff
+,iso_code,country,year,nuclear_consumption,coal_consumption,hydro_consumption,oil_consumption,gas_consumption,wind_consumption,solar_consumption,other_renewable_consumption,biofuel_consumption,low_carbon_consumption,renewables_consumption,fossil_consumption,total_consumption,fossil_diff,total_cons_diff
 0,AGO,Angola,1990,0.0,0.0,2.0514286093,15.325936079,5.8349614994,0.0,,0.0,0.0,2.0514286093,2.0514286093,21.1608975784,23.2123261877,0.0,0.0
 1,AGO,Angola,1991,0.0,0.0,2.042857183,16.144753207,6.142350773,0.0,,0.0,0.0,2.042857183,2.042857183,22.28710398,24.329961163,1.126206401600001,1.1176349752999997
 2,AGO,Angola,1992,0.0,0.0,2.377142925,16.129701661,6.1821378171,0.0,,0.0,0.0,2.377142925,2.377142925,22.311839478099998,24.6889824031,0.024735498099996533,0.3590212400999988
